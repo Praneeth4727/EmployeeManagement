@@ -1,0 +1,7 @@
+console.log("Welcome to Employee Management Application");
+
+function startApplication() {
+    console.log("Application Started Successfully");
+}
+
+startApplication();
