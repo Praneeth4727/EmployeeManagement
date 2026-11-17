@@ -4,4 +4,14 @@ function startApplication() {
     console.log("Application Started Successfully");
 }
 
+function startApplication1() {
+    console.log("Application not Started Successfully");
+}
+
+function startApplication2() {
+    console.log("Application still Started Successfully");
+}
+
+
+
 startApplication();
