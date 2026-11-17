@@ -1,0 +1,6 @@
+function employeeRegistration(name: string, email: string) {
+    console.log("Employee Registration");
+
+    console.log("Employee Name: " + name);
+    console.log("Employee Email: " + email);
+}
