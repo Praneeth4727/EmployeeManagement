@@ -1,0 +1,7 @@
+function employeeDetails() {
+    console.log("Employee Details");
+
+    console.log("Employee ID: 101");
+    console.log("Employee Name: Praneeth");
+    console.log("Department: IT");
+}

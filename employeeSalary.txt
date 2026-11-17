@@ -1,0 +1,5 @@
+function calculateSalary(basicSalary: number) {
+    console.log("Employee Salary Details");
+
+    console.log("Basic Salary: " + basicSalary);
+}
