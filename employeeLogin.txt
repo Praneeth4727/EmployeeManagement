@@ -1,9 +1,11 @@
 function employeeLogin(username: string, password: string) {
+
     console.log("Employee Login Module");
 
     if (username === "admin" && password === "admin123") {
+        console.log("Welcome Admin!");
         console.log("Login Successful");
     } else {
-        console.log("Invalid Credentials");
+        console.log("Invalid Username or Password");
     }
 }
