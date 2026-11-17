@@ -1,6 +1,12 @@
 function employeeRegistration(name: string, email: string) {
+
     console.log("Employee Registration");
 
-    console.log("Employee Name: " + name);
-    console.log("Employee Email: " + email);
+    if (name && email) {
+        console.log("Registration Successful");
+        console.log("Employee Name: " + name);
+        console.log("Employee Email: " + email);
+    } else {
+        console.log("Please enter valid employee details");
+    }
 }
